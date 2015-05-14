@@ -21,9 +21,5 @@ test:
   database: db/test.sqlite3
 
 production:
-  adapter: postgrsql
-  encoding: unicode
-  database:publika_production
-  pool: 5
-  username: publika
-  password:
+  <<: *default
+  database: db/production.sqlite3
