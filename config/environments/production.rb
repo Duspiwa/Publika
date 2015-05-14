@@ -1,3 +1,6 @@
+
+
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -82,8 +85,4 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 end
 
-SampleApp::Application.configure do
- 
-  config.serve_static_assets = true
-  
-end
+
