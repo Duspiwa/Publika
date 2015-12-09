@@ -4,6 +4,13 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -175,7 +182,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Helvetica",Helvetica,Arial;
     color: #fed136;
 }
 
@@ -365,7 +372,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100%; 
     opacity: 0;
     background: rgba(254,209,54,.9);
     -webkit-transition: all ease .5s;
@@ -864,4 +871,17 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+ #logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 2em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold; 
+  color: #4d1919;
+  text-decoration: none;
 }
