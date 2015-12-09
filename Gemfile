@@ -6,14 +6,9 @@ ruby '2.2.2'
 gem 'rails', '4.2.0'
 
 
-group :production do
-	gem 'rails_12factor'
-	gem 'pg'
-end
 
-group :development, :test do
-	gem 'sqlite3'
-end
+
+gem 'bootstrap-sass', '3.2.0.0'
 
 
 
@@ -27,6 +22,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -55,5 +51,14 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem 'sqlite3'
+
+  group :production do
+	gem 'rails_12factor'
+	gem 'pg'
+end
+
+
 end
 
