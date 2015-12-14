@@ -53,12 +53,15 @@ group :development, :test do
   gem 'spring'
 
   gem 'sqlite3'
+end
 
   group :production do
 	gem 'rails_12factor'
 	gem 'pg'
+       
+  gem 'rails_serve_static_assets', '~> 0.0.4'
 end
 
 
-end
+
 
