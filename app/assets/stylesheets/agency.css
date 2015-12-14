@@ -885,3 +885,28 @@ body {
   color: #4d1919;
   text-decoration: none;
 }
+
+
+
+#splashScreen img{
+margin:0 auto;
+}
+#splashScreen{
+position:absolute;
+top:0;
+left:0;
+height:100%;
+width:100%;
+background-color:#000;
+background-repeat:no-repeat;
+text-align:center;
+}
+#demoImg{
+background:url(‘images/back-screen.jpg’) no-repeat;
+height:538px;
+margin-bottom:15px;
+text-align:center;
+}
+#demoImg img{
+margin-top:80px;
+}
